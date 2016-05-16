@@ -1,6 +1,19 @@
 {
     "ApexClass":[
         {
+            "name":"Default",
+            "file_name":"ApexClass.cls",
+            "description":"The default template for an Apex Class",
+            "author":"MavensMate",
+            "params":[
+                {
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+        {
             "name":"CMB TriggerHandler",
             "file_name":"CMB_TriggerHandler.cls",
             "description":"CMB Template for a Trigger Handler",
@@ -24,15 +37,15 @@
             ]
         },
         {
-            "name":"Default",
-            "file_name":"ApexClass.cls",
-            "description":"The default template for an Apex Class",
-            "author":"MavensMate",
+            "name":"CMB Service",
+            "file_name":"CMB_Service.cls",
+            "description":"CMB Template for a Service",
+            "author":"Scott Reed",
             "params":[
                 {
                     "name":"api_name",
-                    "description":"Apex Class API Name",
-                    "default":"MyApexClass"
+                    "description":"Service Name",
+                    "default":"MyService"
                 }
             ]
         },
